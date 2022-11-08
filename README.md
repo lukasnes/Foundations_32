@@ -16,3 +16,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | Class | Topic     | Link                |
 | :-------- | :------- | :------------------------- |
 | `Week 1 Day 1` | Orientation | https://strategiced.zoom.us/rec/share/JYvtUXKpfwnu63tuh4nvu3OXFkhxtuHQ24NgB3vu9CQhRleVXGkHjaBbuIidOnyz.0IywVqV4tRZ1jApr |
+| `Week 1 Day 2` | Code Basics | |
