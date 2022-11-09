@@ -50,6 +50,15 @@ let rain = true;
 
 //CODE HERE
 
+for(let i = 0; i < 10; i++){
+  console.log('hello', i + 1)
+}
+
+// let three = 3
+// three++            // this increments three by 1
+// three++            // so does this
+// console.log(three) // this will log 5
+
 ////////// PROBLEM 6 //////////
 
 /*
@@ -65,6 +74,16 @@ let rain = true;
 */
 
 //CODE HERE
+for(let i = 10; i >= 0; i--){
+  console.log(i)
+}
+// for (let i = 10; i >= 0; i--){
+//   if(i){                           //this code will not hit when i = 0 because 0 evaluates to false
+//     console.log(i)
+//   } else {
+//     console.log(`i is zero`)
+//   }
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -77,6 +96,23 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while(score <= passingScore){                       //while our score is less than or equal to passingScore, run this loop
+  if(score === passingScore){                       //if our score equals passing, then log you passed
+    console.log("You passed!")
+  } else {
+    console.log("Your score is not high enough")    //if it does not equal passing, then log your score is not high enough
+  }
+  score++                                           //add 1 to your score -- AKA increment by 1
+}
+
+// 1 = sign reassigns a variable
+// 2 == signs -- loose comparison
+console.log("2" == 2)                 // this is true
+// 3 === signs -- strict comparison
+console.log("2" === 2)                // this is false
+
+console.log(2 + "2")                  // this logs a string of 22, because JavaScript is converting the number into a string
+console.log("b" + "a" + + "a" + "a")  // this logs baNaNa because of similar data conversion
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -88,7 +124,15 @@ let passingScore = 7;
 */
 
 //CODE HERE
+let changeMyMind = true
 
+if(changeMyMind /* === true*/) {     // You can write the conditional to compare for true, or simply check if the variable is true
+  changeMyMind = false
+} else {
+  changeMyMind = true
+}
+
+// console.log(changeMyMind)
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
@@ -102,3 +146,21 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+
+while(z > 0){                        //while z is not 0 or less, run this loop
+  for(let i = z; i > 0; i--){       // set i equal to z -- first time 5, then 4, etc. Exit condition where i is 0 or less
+    console.log(i)                  // console log i from 5 down to 1, then 4 down to 1, then 3 down to 1, etc
+  }
+  z--                               // subtract 1 from z, then restart the loop
+}
+
+
+// for(let i = 1; i <= 50; i++){
+//   if(i % 3 === 0) {               //When a number is divisible by 3, this will be true
+//     console.log("fizz", i)
+//   } 
+
+//   if(i % 3){                     //When a number is divisible by 3, this will be false, because a remainder of 0 converts to false
+//     console.log("buzz", i)
+//   }
+// }
