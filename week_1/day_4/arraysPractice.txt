@@ -1,0 +1,104 @@
+let randomStuff = [42, "roof", null, "car", false, undefined, 205]
+                   0     1      2     3      4       5         6
+1. Given the randomStuff array, answer the following questions:
+a) What does the following print to the terminal?
+
+console.log(randomStuff[4])
+
+--------------------------------------------
+false
+--------------------------------------------
+
+b) What does the following print to the terminal?
+
+console.log(`My ${randomStuff[1]} is red.`)
+
+--------------------------------------------
+My roof is red
+--------------------------------------------
+
+(The following questions make permanent changes to the array)
+
+c) What does the following print to the terminal?
+//randomStuff = [42, "roof", null, "car", false, undefined, 205]
+
+randomStuff.pop()
+
+console.log(randomStuff)
+
+--------------------------------------------
+[42,"roof",null,"car",false,undefined]
+--------------------------------------------
+
+d) What does the following print to the terminal?
+
+randomStuff.shift()  // ["roof",null,"car",false,undefined]
+console.log(randomStuff[3]) //0  1     2    3      4
+
+--------------------------------------------
+false
+--------------------------------------------
+
+e-1) What does the following print to the terminal?
+["roof",null,"car",false,undefined]
+
+randomStuff.unshift("puppies") ["puppies","roof",null,"car",false,undefined]
+randomStuff.push("taxes")      ["puppies","roof",null,"car",false,undefined,"taxes"]
+                                    0       1      2    3     4       5        6
+randomStuff.splice(3,2,627)     ["puppies","roof",null,627,undefined,"taxes"]
+let randomThing = randomStuff.slice(2,3)  [null]
+
+for(let i = 0; i < randomStuff.length; i++){
+    console.log(randomStuff[i])
+}
+
+--------------------------------------------
+puppies
+roof
+null
+627
+undefined
+taxes
+--------------------------------------------
+
+e-2) What does randomStuff look like now?
+
+--------------------------------------------
+["puppies","roof",null,627,undefined,"taxes"]
+--------------------------------------------
+
+e-3) What does the following print to the terminal?
+
+console.log(randomThing)
+
+--------------------------------------------
+[null]
+--------------------------------------------
+
+f) What does the following print to the terminal? (Multiple answers)
+
+let randomStuff = ["puppies","roof",null,627,undefined,"taxes"]
+//randomStuff.length = 6
+
+
+while(randomStuff.length < 10){
+    randomStuff.push("stuff")       
+}
+
+if(randomStuff.shift() === "stuff"){
+    console.log(randomStuff[7])
+} else if (randomStuff.pop() === "stuff") {
+    console.log(randomStuff[3])
+} else if (randomStuff.pop() === "stuff") {
+    console.log(randomStuff[3])
+} else {
+    console.log(randomStuff[randomStuff.length - 1])
+}
+
+["roof",null,627,undefined,"taxes","stuff","stuff","stuff"]
+console.log(randomStuff.length)
+
+--------------------------------------------
+undefined
+8
+--------------------------------------------
