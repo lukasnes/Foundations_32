@@ -1,0 +1,5 @@
+//Commands for pushing code when you've already committed to github
+
+git add . (or the file names that you want to add to the staging area)
+git commit -m "Commit message about the changes you've made"
+git push
