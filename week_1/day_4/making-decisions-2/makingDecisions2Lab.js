@@ -33,7 +33,7 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
+var nums = [1,3,5,13,25,47,2,3,6,22,98,45,23,22,12];
 let evensArr = []
 // Do not edit the code above.
 
@@ -42,8 +42,20 @@ let evensArr = []
 */
 
 //Code Here
+//Create a for loop that loops over nums
 
+for(let i = 0; i < nums.length; i++){
+  //Create a conditional that checks if my current number is even
+  let currentNum = nums[i]
+  // console.log(currentNum)
+  if(currentNum % 2 === 0){
+    //Add this number to the evensArr
+    evensArr.unshift(currentNum)
+  }
 
+}
+
+console.log(evensArr)
 
 ////////// PROBLEM 5 //////////
 
@@ -124,7 +136,35 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+switch(letterGrade) {
+  case 'A':
+    console.log("The student is doing excellently.")
+    break;
+  case 'B':
+    console.log("The student is doing well.")
+    break;
+  case 'C':
+    console.log("The student is doing alright.")
+    break;
+  case 'D':
+    console.log("The student is not doing very well.")
+    break;
+  case 'F':
+    console.log("The student is failing.")
+    break;
+  default:
+    console.log("Not an eligible grade.")
+    break;
+}
 
+for(let i = 0; i < nums.length; i++){
+  if(nums[i] % 2 != 0){
+    console.log(`${nums[i]} is not even number`)
+  } else {
+    console.log(`${nums[i]} is the first even number.`)
+    break;
+  }
+}
 
 
 ////////// PROBLEM 11 //////////
