@@ -17,5 +17,6 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | :-------- | :------- | :------------------------- |
 | `Week 1 Day 1` | Orientation | https://strategiced.zoom.us/rec/share/JYvtUXKpfwnu63tuh4nvu3OXFkhxtuHQ24NgB3vu9CQhRleVXGkHjaBbuIidOnyz.0IywVqV4tRZ1jApr |
 | `Week 1 Day 2` | Code Basics | https://strategiced.zoom.us/rec/share/DuppTQa3mnRsWv4OobvGFkAmUrz_u6vTU1LZqVuwjc5k8iwHksUVVoLn-mxaP94.W8_EgZKT51GnynA6 |
-| `Week 1 Day 3` | Code Basics | https://strategiced.zoom.us/rec/share/i_XIbMt0heUdL-MYzaYQBwMlM9_eQt5LKKJtrimCupanr73UWGS48yl1mYXfGd7T.xnodmJIXZjgMyeMP |
-| `Week 1 Day 4` | Code Basics | https://strategiced.zoom.us/rec/share/MXmU8HiOrSkiTU2Pk3ouwoPbJ1fmQRvuYYmGRqk0-JsMTGpunXnhes7STNqPx6vk.r6mb44fjjOb1B6bm |
+| `Week 1 Day 3` | Making Decisions 1 | https://strategiced.zoom.us/rec/share/i_XIbMt0heUdL-MYzaYQBwMlM9_eQt5LKKJtrimCupanr73UWGS48yl1mYXfGd7T.xnodmJIXZjgMyeMP |
+| `Week 1 Day 4` | Making Decisions 2| https://strategiced.zoom.us/rec/share/MXmU8HiOrSkiTU2Pk3ouwoPbJ1fmQRvuYYmGRqk0-JsMTGpunXnhes7STNqPx6vk.r6mb44fjjOb1B6bm |
+| `Week 2 Day 1` | Functions 1 | https://strategiced.zoom.us/rec/share/HpngVwkIKVm_5sHY8l_ad9fYExJEurxqyxIaLNgupa7fGKKXQFm9-ZOLu6BCYREA.2MKkOTHmFVfPDJUx |
