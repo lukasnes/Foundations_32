@@ -20,3 +20,5 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 1 Day 3` | Making Decisions 1 | https://strategiced.zoom.us/rec/share/i_XIbMt0heUdL-MYzaYQBwMlM9_eQt5LKKJtrimCupanr73UWGS48yl1mYXfGd7T.xnodmJIXZjgMyeMP |
 | `Week 1 Day 4` | Making Decisions 2| https://strategiced.zoom.us/rec/share/MXmU8HiOrSkiTU2Pk3ouwoPbJ1fmQRvuYYmGRqk0-JsMTGpunXnhes7STNqPx6vk.r6mb44fjjOb1B6bm |
 | `Week 2 Day 1` | Functions 1 | https://strategiced.zoom.us/rec/share/HpngVwkIKVm_5sHY8l_ad9fYExJEurxqyxIaLNgupa7fGKKXQFm9-ZOLu6BCYREA.2MKkOTHmFVfPDJUx |
+| `Week 2 Day 2` | Object Orientation | https://strategiced.zoom.us/rec/share/sftzImFxz23JwmHqC5wcGxd63D9Bpb6iQvp5Ov6wlKRBomgBDRYMOnpVJxzve1gj.r3LuH7CaHWkYlgmK |
+| `Week 2 Day 3` | Functions 2 | https://strategiced.zoom.us/rec/share/HPmHz0LmOnBWfT8WGRlAJSZ_zKVQjv25qL3Rj0RorYFvlnuFmpmhA3stgOfpOske.k1JZA8J6LMVXn8rf |
