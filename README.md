@@ -22,3 +22,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 2 Day 1` | Functions 1 | https://strategiced.zoom.us/rec/share/HpngVwkIKVm_5sHY8l_ad9fYExJEurxqyxIaLNgupa7fGKKXQFm9-ZOLu6BCYREA.2MKkOTHmFVfPDJUx |
 | `Week 2 Day 2` | Object Orientation | https://strategiced.zoom.us/rec/share/sftzImFxz23JwmHqC5wcGxd63D9Bpb6iQvp5Ov6wlKRBomgBDRYMOnpVJxzve1gj.r3LuH7CaHWkYlgmK |
 | `Week 2 Day 3` | Functions 2 | https://strategiced.zoom.us/rec/share/HPmHz0LmOnBWfT8WGRlAJSZ_zKVQjv25qL3Rj0RorYFvlnuFmpmhA3stgOfpOske.k1JZA8J6LMVXn8rf |
+| `Week 2 Day 4` | Design | https://strategiced.zoom.us/rec/share/-XcaPA2WEQNO6FhuYXdEM_yFaLhcANrKkJLBThPG6DggC3C-Eedo1WWT1AHuCHGF.dElc3HiNng31CMc2 |

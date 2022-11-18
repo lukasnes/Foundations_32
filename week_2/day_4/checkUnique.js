@@ -20,6 +20,7 @@ const uniq = iterable => {
             continue
         } 
     }
+    // console.log(checkObj)
 
     //Now we create a new empty array
     let newIterable = []
