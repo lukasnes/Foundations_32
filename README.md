@@ -23,3 +23,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 2 Day 2` | Object Orientation | https://strategiced.zoom.us/rec/share/sftzImFxz23JwmHqC5wcGxd63D9Bpb6iQvp5Ov6wlKRBomgBDRYMOnpVJxzve1gj.r3LuH7CaHWkYlgmK |
 | `Week 2 Day 3` | Functions 2 | https://strategiced.zoom.us/rec/share/HPmHz0LmOnBWfT8WGRlAJSZ_zKVQjv25qL3Rj0RorYFvlnuFmpmhA3stgOfpOske.k1JZA8J6LMVXn8rf |
 | `Week 2 Day 4` | Design | https://strategiced.zoom.us/rec/share/-XcaPA2WEQNO6FhuYXdEM_yFaLhcANrKkJLBThPG6DggC3C-Eedo1WWT1AHuCHGF.dElc3HiNng31CMc2 |
+| `Week 3 Day 1` | HTML and CSS 1 | https://strategiced.zoom.us/rec/share/0iHxEAjKQuhEGctpEIdW7zw25glMME2GGdLQkasu_7dkki-e71f-DcNWb23WtoO3.unQB1cQYJrKZQ3RW |
