@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B99</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+    <h1>Nine-Nine!</h1>
+
+    <button id="all">Get All Characters</button>
+    <button class="char-btns" id="jake">Get Jake</button>
+    <button class="char-btns" id="amy">Get Amy</button>
+    <button class="char-btns" id="rosa">Get Rosa</button>
+    <button class="char-btns" id="charles">Get Charles</button>
+
+    <h2>Get characters older than...</h2>
+    <form id="age-form">
+        <input type="text" placeholder="What's the age limit?" id="age-input"/>
+        <!-- <button>Get Old Characters</button> -->
+    </form>
+
+    <h2>Create a New Character</h2>
+    <form id="create-form">
+        <input type="text" id="first" placeholder="First Name"/>
+        <input type="text" id="last" placeholder="Last Name"/>
+        <select>
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="nonbinary">non-binary</option>
+        </select>
+        <input type="number" id="age" placeholder="age"/>
+        <label for="likes">List likes separated by commas (limit 3):</label>
+        <textarea id="likes"></textarea>
+        <button>add new character</button>
+    </form>
+    </main>
+
+    <section></section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

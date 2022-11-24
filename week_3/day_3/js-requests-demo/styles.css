@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#age-form {
+    height: 70px;
+}
+
+section {
+    margin-left: 40px;
+}

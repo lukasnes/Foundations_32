@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  section,
+  aside {
+    text-align: center;
+    padding-bottom: 20px;
+    transition: all 200ms;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    transition: all 200ms;
+  }
+  
+  button {
+    font-size: 18px;
+    transition: all 200ms;
+    padding: 10px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 50px;
+    transition: all 200ms;
+  }
+  
