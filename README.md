@@ -27,3 +27,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 3 Day 2` | HTML and CSS 2 | https://strategiced.zoom.us/rec/share/XnCsKagRz3LIBUHt7KyTdq7yk0i2QVYhCvp449OhHTBQ_OJl6pS9ytAjBT4XlGK9.HVYhbalZJfpg5OcN |
 | `Week 3 Day 3 Part 1` | Interactive Web Pages | https://strategiced.zoom.us/rec/share/UZk8Ucgg16HhnEwziACyAwEc0XKK2E9YdT3FT4nC0z--Tovtgzay6a0Ck1hd92_M.d69wl3ZVNG0C5sAu |
 | `Week 3 Day 3 Part 2` | Interactive Web Pages 2 | https://strategiced.zoom.us/rec/share/ku9reHNfFtei5iejwzaQFIEdq6gW4EKjIEqA4fWDt_20-ArbV2UOllyG7W-ivTyX.4NmbMg598892vX_1 |
+| `Week 4 Day 1` | Back End 1 | https://strategiced.zoom.us/rec/share/rOBak1muWbErEmUM2fM9SdfuiSIkLsYrrysqnjfwWgEmdHFyKkvfQNsV_Wck-aEG.MAjAeUIV7RqS1YjU |

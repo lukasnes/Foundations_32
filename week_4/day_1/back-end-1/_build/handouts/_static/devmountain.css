@@ -1,0 +1,10 @@
+@import url("main.css");
+
+:root {
+  /* Use camelCase here because it works better with most autocomplete engine */
+  --brandColor: #19b6fa;
+}
+
+#page-content {
+  background: url("dm.png") no-repeat 100% 4em/4em;
+}

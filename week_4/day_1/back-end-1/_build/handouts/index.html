@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Back End 1 | Devmountain Foundations</title>
+
+      <link
+        href="_static/pygments.css"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link href="_static/devmountain.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+          <link rel="stylesheet" type="text/css" href="_static/devmountain.css" />
+          <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+          <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+
+      <script src="_static/pdfobject.min.js"></script>
+      
+  </head>
+  <body>
+      <div id="handouts-container">
+        <header id="page-header">
+            <p id="project-title">Devmountain Foundations</p>
+            <p id="page-title">Back End 1</p>
+              <p id="backlink">
+                <a href="/"> &laquo; Back to Homepage </a>
+              </p>
+        </header>
+
+        <nav id="page-toc"><ul>
+<li><a class="reference internal" href="#">Back End 1</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#detailed-instructions">Detailed Instructions</a><ul>
+<li><a class="reference internal" href="#step-1">Step 1</a></li>
+<li><a class="reference internal" href="#step-2">Step 2</a></li>
+<li><a class="reference internal" href="#step-3">Step 3</a></li>
+<li><a class="reference internal" href="#step-4">Step 4</a></li>
+<li><a class="reference internal" href="#step-5">Step 5</a></li>
+<li><a class="reference internal" href="#step-6">Step 6</a></li>
+<li><a class="reference internal" href="#step-7">Step 7</a></li>
+<li><a class="reference internal" href="#step-8">Step 8</a></li>
+<li><a class="reference internal" href="#step-9">Step 9</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#submit">Submit</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+
+        <main id="page-content">
+            <section class="section" id="back-end-1">
+<h1>Back End 1</h1>
+<section class="section" id="overview">
+<h2>Overview</h2>
+<ol class="arabic simple">
+<li><p>Create a folder called <strong>server</strong></p></li>
+<li><p>Inside the server folder create an <strong>index.js</strong> file</p></li>
+<li><p>Use npm to install express, then require it at the top of your index.js file</p></li>
+<li><p>Create a variable called app and set its value equal to express invoked</p></li>
+<li><p>Set your server up to accept JSON object responses</p></li>
+<li><p>Set your express server to listen to requests on port 4000, test with nodemon</p></li>
+<li><p>Create a get request for the endpoint ‘/api/users’ and another to get weather information</p></li>
+<li><p>Start your server up and check its functionality using the given HTML file</p></li>
+</ol>
+</section>
+<section class="section" id="detailed-instructions">
+<h2>Detailed Instructions</h2>
+<section class="section" id="step-1">
+<h3>Step 1</h3>
+<ul class="simple">
+<li><p>download the materials from Frodo and open the folder in VS Code</p></li>
+<li><p>create a folder called <code class="docutils literal notranslate"><span class="pre">server</span></code> in your lab exercise folder</p></li>
+</ul>
+</section>
+<section class="section" id="step-2">
+<h3>Step 2</h3>
+<ul class="simple">
+<li><p>inside the <code class="docutils literal notranslate"><span class="pre">server</span></code> folder you just made, create a JavaScript file named <code class="docutils literal notranslate"><span class="pre">index.js</span></code></p></li>
+</ul>
+</section>
+<section class="section" id="step-3">
+<h3>Step 3</h3>
+<ul>
+<li><p>in order to get our server working we will need to use Node Package Manager to install two packages.</p>
+<ul class="simple">
+<li><p>open up your terminal window and install <code class="docutils literal notranslate"><span class="pre">express</span></code> and <code class="docutils literal notranslate"><span class="pre">cors</span></code> using this command:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">npm</span> <span class="nx">i</span> <span class="nx">express</span> <span class="nx">cors</span>
+</pre></div>
+</div>
+</li>
+<li><p>We will need to import the <code class="docutils literal notranslate"><span class="pre">express</span></code> package into our <code class="docutils literal notranslate"><span class="pre">index.js</span></code> file next</p>
+<ul class="simple">
+<li><p>inside <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, import <code class="docutils literal notranslate"><span class="pre">express</span></code> like so:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">const</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;express&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p>import the <code class="docutils literal notranslate"><span class="pre">cors</span></code> package next, similar to how you imported <code class="docutils literal notranslate"><span class="pre">express</span></code></p>
+<ul class="simple">
+<li><p>inside <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, import <code class="docutils literal notranslate"><span class="pre">cors</span></code> like so:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">const</span> <span class="nx">cors</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;cors&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Cors</p>
+<div class="admonition-body docutils container">
+<p>Cors is a package that allows the client and server to communicate with each other without the need for advanced configuration.</p>
+</div>
+</div>
+</section>
+<section class="section" id="step-4">
+<h3>Step 4</h3>
+<p>Next, to avoid repeating lengthy code, we will create a variable called <code class="docutils literal notranslate"><span class="pre">app</span></code> that we will reuse to initialize express commands. Set <code class="docutils literal notranslate"><span class="pre">app</span></code> equal to the invocation of express</p>
+<ul class="simple">
+<li><p>on the next line in <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, set the invocation of <code class="docutils literal notranslate"><span class="pre">express</span></code> equal to a variable called <code class="docutils literal notranslate"><span class="pre">app</span></code> like this:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">const</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+</pre></div>
+</div>
+</section>
+<section class="section" id="step-5">
+<h3>Step 5</h3>
+<p>Our client and server will be communicating by sending and receiving JSON objects to each other. In this step, we will configure our express server to use JSON objects correctly.</p>
+<ul class="simple">
+<li><p>on the next line in <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, use the <code class="docutils literal notranslate"><span class="pre">use</span></code> method from <code class="docutils literal notranslate"><span class="pre">express</span></code> to invoke <code class="docutils literal notranslate"><span class="pre">express.json</span></code></p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="nx">json</span><span class="p">());</span>
+</pre></div>
+</div>
+</section>
+<section class="section" id="step-6">
+<h3>Step 6</h3>
+<p>Similar to Step 5, we will also need to allow our express server to use the cors package we required.</p>
+<ul>
+<li><p>on the next line in <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, allow your express app to use cors functionality like this:</p>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">cors</span><span class="p">());</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section class="section" id="step-7">
+<h3>Step 7</h3>
+<p>Let’s now tell <code class="docutils literal notranslate"><span class="pre">express</span></code> to set our server up to run (or “listen”) on <code class="docutils literal notranslate"><span class="pre">port</span> <span class="pre">4000</span></code></p>
+<ul class="simple">
+<li><p>on the next line, set your <code class="docutils literal notranslate"><span class="pre">express</span></code> server up to listen to requests on <code class="docutils literal notranslate"><span class="pre">port</span> <span class="pre">4000</span></code></p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mf">4000</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Server running on port 4000&quot;</span><span class="p">));</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Use the nodemon command in your terminal to get your new server listening on port 4000</p></li>
+<li><p>in terminal, use the command to check that your server is working correctly so far</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">nodemon</span> <span class="pre">server/index</span></code></p>
+</section>
+<section class="section" id="step-8">
+<h3>Step 8</h3>
+<p>We will create first endpoint and method to handle sending a friends array back to the client (front end)</p>
+<ul class="simple">
+<li><p>in <code class="docutils literal notranslate"><span class="pre">index.js</span></code>, above the listen but below any middleware (<code class="docutils literal notranslate"><span class="pre">app.use</span></code> calls are middleware), create the follow GET endpoint and method as follows:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;/api/users&quot;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">friends</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Nitin&quot;</span><span class="p">,</span> <span class="s2">&quot;Eric&quot;</span><span class="p">,</span> <span class="s2">&quot;Jeddy&quot;</span><span class="p">,</span> <span class="s2">&quot;Cameron&quot;</span><span class="p">,</span> <span class="s2">&quot;Riley&quot;</span><span class="p">];</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mf">200</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="nx">friends</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Let’s add another endpoint and method that will tell us how the weather is today</p></li>
+<li><p>on the next line, create another GET endpoint and method as follows:</p></li>
+</ul>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;/weather/:temperature&quot;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">phrase</span> <span class="o">=</span> <span class="sb">`&lt;h3&gt;It was </span><span class="si">${</span><span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">.</span><span class="nx">temperature</span><span class="si">}</span><span class="sb"> today&lt;/h3&gt;`</span><span class="p">;</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mf">200</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="nx">phrase</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p>With object destructuring, we can make the above code a little easier to read</p>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;/weather/:temperature&quot;</span><span class="p">,</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span> <span class="nx">temperature</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">params</span><span class="p">;</span>
+  <span class="kd">const</span> <span class="nx">phrase</span> <span class="o">=</span> <span class="sb">`&lt;h3&gt;It was </span><span class="si">${</span><span class="nx">temperature</span><span class="si">}</span><span class="sb"> today&lt;/h3&gt;`</span><span class="p">;</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mf">200</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="nx">phrase</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section>
+<section class="section" id="step-9">
+<h3>Step 9</h3>
+<ul class="simple">
+<li><p>Launch the index.html file in your browser and test out your endpoints by clicking the “GET Friends List” button or by navigating to either <a class="reference external" href="http://localhost:4000/weather/hot" target="_blank">http://localhost:4000/weather/hot</a> or to <a class="reference external" href="http://localhost:4000/weather/cold" target="_blank">http://localhost:4000/weather/cold</a></p></li>
+</ul>
+</section>
+</section>
+<section class="section" id="submit">
+<h2>Submit</h2>
+<p>Initialize a git repo containing all your work and push it to GitHub.</p>
+</section>
+</section>
+
+        </main>
+
+        <footer id="page-footer">
+            <p>&copy; 2022 Devmountain</p>
+        </footer>
+      </div>
+
+      <script src="_static/main.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+  </body>
+</html>
