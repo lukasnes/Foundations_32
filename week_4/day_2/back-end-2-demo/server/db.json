@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "The Lion King",
+      "rating": 5,
+      "imageURL" : "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Aladdin",
+      "rating": 4,
+      "imageURL" : "https://imgix.ranker.com/user_node_img/21/417657/original/aladdin-photo-u64?w=650&q=50&fm=pjpg&fit=fill&bg=fff"
+    },
+    {
+      "id": 3,
+      "title": "Aristocats",
+      "rating": 5,
+      "imageURL" : "https://horizon-emea.disneyinternational.com/cvms/movie/thumbnail/3900/3900-it_it.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Beauty and the Beast",
+      "rating": 3,
+      "imageURL" : "https://www.reelviews.net/resources/img/posters/thumbs/beauty_and_the_beast_poster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Fox and the Hound",
+      "rating": 4,
+      "imageURL" : "https://www.iceposter.com/thumbs/MOV_798aa013_b.jpg"
+    },
+    {
+      "id": 6,
+      "title": "101 Dalmations",
+      "rating": 3,
+      "imageURL" : "https://fanart.tv/fanart/movies/12230/movieposter/101-dalmatians-522b9422d421e.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Tarzan",
+      "rating": 5,
+      "imageURL" : "https://horizon-emea.disneyinternational.com/cvms/movie/thumbnail/29187/29187-de_de.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Hercules",
+      "rating": 3,
+      "imageURL" : "https://i.pinimg.com/originals/55/44/ac/5544acec2135d73e3f1ea8ad3068b609.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Mulan",
+      "rating": 4,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/513PCT8QM5L._AC_SY445_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Pocahontas",
+      "rating": 3,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/51XHKA200JL._AC_SY445_.jpg"
+    }
+  ]
