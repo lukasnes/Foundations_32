@@ -30,3 +30,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 4 Day 1` | Back End 1 | https://strategiced.zoom.us/rec/share/rOBak1muWbErEmUM2fM9SdfuiSIkLsYrrysqnjfwWgEmdHFyKkvfQNsV_Wck-aEG.MAjAeUIV7RqS1YjU |
 | `Week 4 Day 2` | Back End 2 | https://strategiced.zoom.us/rec/share/JEoD60vn2YWMMymcbOxDheIuIHQPYCkEgzyRjfqhuJGmp6sucQ9gpZKPKVTCGvtE.fyCNY_Gx6rhtkK8L |
 | `Week 4 Day 2 EoD` | Class Project | https://strategiced.zoom.us/rec/share/fvcdiQcBUmtmMbZ5WDG6pO_97ZNdDl3TsFLxnnNa0O7T4erAMKG35zX9_39aDRpW.UAXsYsIo-ZkRzVzi |
+| `Week 4 Day 3` | API Lecture | https://strategiced.zoom.us/rec/share/aIyI5Tn5ihqjHkEmIW-p8ai8XI2tUgpebFsC8AQtNQ32Vbm2RiaNH_QyMznzS4QQ.L8iy1RX1rwYTs2tz |
