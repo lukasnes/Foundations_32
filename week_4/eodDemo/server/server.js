@@ -6,9 +6,11 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {addNameToList} = require('./controller')
+const {getNameList,addNameToList,deleteName} = require('./controller')
 
+app.get('/api/name', getNameList)
 app.post('/api/name', addNameToList)
+app.delete('/api/name/:index', deleteName)
 
 
 app.listen(4000, console.log("Server running on 4000"))
