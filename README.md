@@ -31,4 +31,6 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 4 Day 2` | Back End 2 | https://strategiced.zoom.us/rec/share/JEoD60vn2YWMMymcbOxDheIuIHQPYCkEgzyRjfqhuJGmp6sucQ9gpZKPKVTCGvtE.fyCNY_Gx6rhtkK8L |
 | `Week 4 Day 2 EoD` | Class Project | https://strategiced.zoom.us/rec/share/fvcdiQcBUmtmMbZ5WDG6pO_97ZNdDl3TsFLxnnNa0O7T4erAMKG35zX9_39aDRpW.UAXsYsIo-ZkRzVzi |
 | `Week 4 Day 3` | API Lecture | https://strategiced.zoom.us/rec/share/aIyI5Tn5ihqjHkEmIW-p8ai8XI2tUgpebFsC8AQtNQ32Vbm2RiaNH_QyMznzS4QQ.L8iy1RX1rwYTs2tz |
-| `Week 4 Day 3 EoD` | Class Project |
+| `Week 4 Day 3 EoD` | Class Project |https://strategiced.zoom.us/rec/share/FsUxb_QOWNbyYHoJ1p5IjgMOr4-PRXNDy74qA1k0VRQLS_t_hhsPOkL38F1nHD18.V1ddaeN8oRbPG6Tb |
+| `Week 4 Day 4` | Cybersecurity | https://strategiced.zoom.us/rec/share/kM0ZCob1d38wG7MQAXP4ZGqbqs3-GJzHfKgkH4sjCBL8TY8ZCtlerRS6tXp451Vw.aMndpRuwqEDuN-0L |
+| `Week 4 Day 4 EoD` | https://strategiced.zoom.us/rec/share/w531qwPmTdyOU-CGjtK4rTW-4B3vUSxY30EEMsLanMGXbKiBnZ_flvC53SfkMqBa.BOo1bT0ZObqGJiRe |
