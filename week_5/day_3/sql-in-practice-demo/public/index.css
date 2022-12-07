@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2, h3, p, a {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: green;
+}
+
+form > button {
+    padding: 0 10px;
+}
+
+#appt-form {
+    margin: 15px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appt-card {
+    border: 2px solid green;
+    box-shadow: 5px 5px 0 grey;
+    margin: 20px;
+    padding: 20px;
+}
+
+#profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    margin-left: 15px;
+}
+
+#profile-form > input {
+    margin-bottom: 15px;
+}
+
+#profile-form > button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+}

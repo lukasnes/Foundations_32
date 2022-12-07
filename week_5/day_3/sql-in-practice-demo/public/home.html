@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark County Landscaping</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Clark County Landscaping</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Reqeust an Appointment</h2>
+        <form id="appt-form">
+            <input type="date" id="date"/>
+            <select id="time"></select>
+            <select id="service">
+                <option>maintenance</option>
+                <option>weeds</option>
+                <option>tree trimming</option>
+                <option>sprinklers</option>
+                <option>pest control</option>
+            </select>
+            <button>submit</button>
+        </form>
+
+        <h2>Your Appointments</h2>
+        <section id="appt-list"></section>
+    </main>
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
