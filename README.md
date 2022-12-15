@@ -40,3 +40,4 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 6 Day 1` | QA Basics | https://strategiced.zoom.us/rec/share/JpdX7PRV_9wdK3hY3HAhXlBU4nfM5W0M7K_FAFBUjqbBjjIJ3T1q8WSCx0LznO9S.hOEpR5xa6z_Y-T_l |
 | `Week 6 Day 2` | Automation | https://strategiced.zoom.us/rec/share/I1R3Z0jX47o3kIbIUNGJY4z4QUGyecpHcEUrw1XBjHTZIcJI_BgOBktk7PMlDc57.8cH1YcJZentRXmKG |
 | `Week 6 Day 3` | Deployment | https://strategiced.zoom.us/rec/share/LzSFCXyLt8-J0PiIvTS8j85S0UXQfLzoXcBIqkHos4TUrg1795-q6fZikpxTNrpr.hat8FF5diTQmAVQs |
+| `Week 6 Day 4` | Rollbar | https://strategiced.zoom.us/rec/share/mxI60RzP6RYhHDFkGUE88uMiAKrzPWVJvEqRc6v-1H1hqWodgjLq3jvLfJSiyT2F.1u1ydSJlvx8yZPgV |
