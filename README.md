@@ -41,3 +41,10 @@ Welcome to our class repository! This is where we will store all of the lecture 
 | `Week 6 Day 2` | Automation | https://strategiced.zoom.us/rec/share/I1R3Z0jX47o3kIbIUNGJY4z4QUGyecpHcEUrw1XBjHTZIcJI_BgOBktk7PMlDc57.8cH1YcJZentRXmKG |
 | `Week 6 Day 3` | Deployment | https://strategiced.zoom.us/rec/share/LzSFCXyLt8-J0PiIvTS8j85S0UXQfLzoXcBIqkHos4TUrg1795-q6fZikpxTNrpr.hat8FF5diTQmAVQs |
 | `Week 6 Day 4` | Rollbar | https://strategiced.zoom.us/rec/share/mxI60RzP6RYhHDFkGUE88uMiAKrzPWVJvEqRc6v-1H1hqWodgjLq3jvLfJSiyT2F.1u1ydSJlvx8yZPgV |
+| `Week 7 Day 1` | Algorithms | https://strategiced.zoom.us/rec/share/ovzcKbQ2hacD9B8kq1boukiqHlzLuscIlv2A7Of2v-Hf4yI5y3Denrf4bCwlE-0.zhkQIQuyBTe3h8le |
+| `Week 7 Day 1 EoD` | CSS Animations | https://strategiced.zoom.us/rec/share/Fj7RPzo5xRvyn5ZBG8oW27h81CstcC_RdGkIdfEejzK3XyM4Ol_GxaEc8TMpQ8dl.OODaTZlJVNgMeTWN |
+| `Week 7 Day 2` | Big O | https://strategiced.zoom.us/rec/share/p8J5R989S6tOsMpbfLGQ8xOLAFZv87gjNEHkMyd6AmlyX9yRMY8n5KfVAioqUER_.5TlPAT3N9UoX02Fo |
+| `Week 7 Day 3` | Data Structures | https://strategiced.zoom.us/rec/share/snNS7a4rXgVjqUXTlCWT3IQL4AicmP7dBdD2mmafUXbmo4Cf8F_Z7yr9SJX-V9jZ.8WfsnXAYYuzT67Fh |
+| `Week 7 Day 3 EoD` | Linked Lists & Canvas | https://strategiced.zoom.us/rec/share/Zzot3W0IdBFxvzbOjupoaLapXoK-gu-AixD7SFPEHef2W3fx32M4xT1jxpc9ScPl._uucXc6hNjuPlzZ- |
+| `Week 7 Day 4` | Com Sci History | https://strategiced.zoom.us/rec/share/SQSOI0NDMHcW0X2nBlC08Ecy1yAgqdxBcvauzIsJ7dNGr_evV6ztQhyIOZ9rIoGR.fdSRUQLMDNheBsVY |
+| `Week 8 Day 2` | Demo Videos | https://strategiced.zoom.us/rec/share/2jrimGtoHvpJeLf_tiACyq9IF0lgIWSV-kTocVt7xhEJmIZzxPtPeO9u7MHEoJgD.JBTlpeCBPBQoN0IT |
